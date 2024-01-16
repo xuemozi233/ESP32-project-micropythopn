@@ -26,7 +26,7 @@ if not wlan.isconnected():
             oled.text("fail", 0,  20)      #写入第1行内容
             break
 
-oled.text("connecting", 1,  1)      #写入第1行内容
+
 oled.text('Micropython', 20, 5)
 oled.show()
 oled.invert(False)
